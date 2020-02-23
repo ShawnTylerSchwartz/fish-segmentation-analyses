@@ -2,9 +2,10 @@
 # Shawn T. Schwartz, February 22, 2020
 # <shawnschwartz@ucla.edu>
 
+rm(list=ls())
+
 library(ggplot2)
 
-rm(list=ls())
 wd <- "~/Developer/fish-segmentation-analyses"
 setwd(wd)
 
